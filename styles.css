@@ -1,0 +1,16 @@
+.ramp-widget {
+    width: 350px;
+    height: 525px;
+}
+
+@media (min-width: 768px) {
+    .ramp-widget {
+        width: 400px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .ramp-widget {
+        width: 500px;
+    }
+}

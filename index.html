@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<h1>STUDENT PORTAL</h1>
+<h3>Account: <span id="showAccount">NaN</span></h3>
+<br>
+<br>
+<text>Please connect to Binance Test Net</text>
+<br>
+
+<body>
+  <button id="connectButton">Connect</button>
+  <br>
+  <br>
+
+  <h4>Apply for certificate</h4>
+  <form>
+    <label for="name">Name: </label>
+    <input type="text" id="name" value="" />
+    <label for="age">Age: </label>
+    <input id="age" value="" />
+    <button type="button" id="applyButton">Apply</button>
+  </form>
+  <br>
+  <h2>Generate Certificate</h2>
+  <button id="generateCertificate">Generate</button>
+  <br>
+  <h2>Certificate details</h2>
+  <button type="button" id="certificate-button">get Certificate</button>
+  <br>
+  <br>
+  <h4>Name: <span id="studentName"></span></h4>
+  <h4>Age: <span id="studentAge"></span></h4>
+  <h4>Institute: <span id="studentUni"></span></h4>
+  <h4>Issued On: <span id="studentTime"></span></h4>
+
+  <span>Are you an Admin? go to the <a href=" ./admin.html">Admin page</a></span>
+
+  <script src="./index.js" type="module"></script>
+</body>
+<br>
+<br>
+
+</html>
